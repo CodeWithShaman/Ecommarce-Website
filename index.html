@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOBAL APPEAL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+   
+.navbar-nav .nav-link i {
+  font-size:15px;  
+  margin-right: 8px; 
+}
+.card {
+  border: none;
+  max-width: 300px;
+  height:25rem;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+}
+.card img {
+  width:100%;
+  aspect-ratio:4/2;
+  object-fit:contain;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card-price{
+  color: #fd7e14;
+}
+#butn{
+  color: #fff;
+  background-color: #2abbe8;
+}
+#btn{
+  color: #fff;
+  background-color: #fd7e14;
+}
+.list-group-item{
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+#button{
+  color: #fff;
+  background-color: #2abbe8;
+  display: block;
+  margin: 50px auto;
+  padding: 15px 30px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+footer {
+            background-color: #f8f9fa;
+            color: #333;
+            font-size: 14px;
+        }
+
+        footer h5 {
+            font-size: 18px;
+            color: #fd7e14;
+        }
+
+        footer .text-muted {
+            font-size: 12px;
+        }
+
+        footer a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #fd7e14;
+            text-decoration: underline;
+        }
+
+        footer .list-unstyled {
+            padding-left: 0;
+        }
+
+        footer .container {
+            max-width: 1140px;
+        }
+        
+
+  </style>
+</head>
+<body>
+    <!-- Navbar Started -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex flex-wrap justify-content-center align-items-center ">
+        <div class="container-fluid gap-5">
+          <a class="navbar-brand fw-bold fs-4 text-warning" href="./index.html">Global Appeal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5 fs-5">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./index.html">
+                    <i class="fa-solid fa-house fa-sm"></i> Home
+                  </a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="">
+                    <i class="fa-solid fa-cogs fa-sm"></i>Features
+                </a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="">
+                    <i class="fa-solid fa-briefcase fa-sm"></i>Services
+                  </a>
+              </li>
+              <li id="icon" class="nav-item">
+                <a class="nav-link" aria-current="page" href="./cart.html">
+                    <i class="fa-solid fa-truck fa-sm"></i><span>Cart</span>
+                  </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- Navbar Ended-->
+
+<!-- Crousel Started -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner mt-1">
+          <div class="carousel-item active">
+            <img src="https://img.lazcdn.com/us/domino/83e7e216-5155-4a77-bfbb-c7f2ff719409_PK-1976-688.jpg_2200x2200q80.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.lazcdn.com/us/domino/2ae73c97-313b-4886-b5b1-3e407b9a61c4_PK-1976-688.jpg_2200x2200q80.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.lazcdn.com/us/domino/431e3c71-6b00-4435-a508-fff639568473_PK-1976-688.jpg_2200x2200q80.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Crousel Ended -->
+
+
+<!-- CARDS Started-->
+<div id="container" class="d-flex justify-content-center flex-wrap align-items-center mt-4 gap-4">
+
+</div>
+
+<button type="button" class="btn" id="button" onclick="checkout()"><h5>CHECKOUT</h5></button>
+
+<!-- CARDS Ended -->
+
+<!-- Footer -->
+<footer class="footer bg-light mt-5 pt-4 pb-3">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <h5 class="fw-bold text-warning fs-5">Global Appeal</h5>
+              <p>Your one-stop solution for quality products at great prices!</p>
+          </div>
+          <div class="col-md-4">
+              <h5 class="fw-bold fs-5">Quick Links</h5>
+              <ul class="list-unstyled">
+                  <li><a href="./index.html" class="text-dark text-decoration-none">Home</a></li>
+                  <li><a href="#" class="text-dark text-decoration-none">Features</a></li>
+                  <li><a href="#" class="text-dark text-decoration-none">Services</a></li>
+                  <li><a href="#" class="text-dark text-decoration-none">Contact</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <h5 class="fw-bold fs-5">Contact Us</h5>
+              <p><i class="fa-solid fa-phone"></i> +123 456 789</p>
+              <p><i class="fa-solid fa-envelope"></i> support@globalappeal.com</p>
+          </div>
+      </div>
+      <div class="row mt-4">
+          <div class="col text-center">
+              <p class="text-muted">&copy; 2024 Global Appeal. All rights reserved.</p>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- Footer Ended -->
+
+
+
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/831f7084ef.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
